@@ -11,7 +11,7 @@
         "Limit internet access for critical systems.",
         "Monitor Microsoft's official advisories for updates."
       ],
-      "reference_url": "[https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-12345"](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-12345")
+      "reference_url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-12345"
     },
     {
       "title": "Ransomware Surge Targets Education Sector",
@@ -23,7 +23,7 @@
         "Review backup and restore procedures.",
         "Educate staff on phishing risks."
       ],
-      "reference_url": "[https://www.cybersecuritynews.com/ransomware-education-sector/"](https://www.cybersecuritynews.com/ransomware-education-sector/")
+      "reference_url": "https://www.cybersecuritynews.com/ransomware-education-sector/"
     }
   ],
   "news": [
@@ -31,13 +31,13 @@
       "title": "Phishing Campaign Targets Banking Apps",
       "date": "2025-04-15",
       "description": "A widespread phishing campaign is targeting users of major banking applications. Be cautious with emails requesting personal information.",
-      "reference_url": "[https://www.cybernews.com/phishing-campaigns/"](https://www.cybernews.com/phishing-campaigns/")
+      "reference_url": "https://www.cybernews.com/phishing-campaigns/"
     },
     {
-      "title": "Critical Chrome Update Released",
+      "title": "New Critical Chrome Update Released",
       "date": "2025-04-14",
       "description": "Google has released an emergency update to patch a security flaw exploited in the wild. Update your browser immediately.",
-      "reference_url": "[https://chromereleases.googleblog.com/"](https://chromereleases.googleblog.com/")
+      "reference_url": "https://chromereleases.googleblog.com/"
     }
   ]
 }
