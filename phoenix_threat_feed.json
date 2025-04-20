@@ -1,0 +1,88 @@
+{
+  "updated": "2025-04-20T12:12:28.446513Z",
+  "threats": [
+    {
+      "name": "Operation FishMedley targeting governments, NGOs, and think tanks",
+      "created": "2025-03-21T10:33:19.278000",
+      "tags": [
+        "ngo",
+        "espionage",
+        "apt",
+        "shadowpad",
+        "spyder",
+        "government",
+        "china",
+        "sodamaster",
+        "think tank",
+        "i-soon",
+        "rpipecommander"
+      ],
+      "description": "ESET researchers have uncovered a global espionage operation called Operation FishMedley, conducted by the FishMonger APT group, which is operated by the Chinese contractor I-SOON. The campaign targeted governments, NGOs, and think tanks across Asia, Europe, and the United States during 2022. The attackers used implants like ShadowPad, SodaMaster, and Spyder, which are common or exclusive to China-aligned threat actors. The operation involved sophisticated tactics including lateral movement, credential theft, and custom malware deployment. Seven victims were identified across various countries and sectors. The analysis provides technical details on the malware used, initial access methods, and command and control infrastructure.",
+      "url": "",
+      "author_name": "AlienVault"
+    },
+    {
+      "name": "The rising threat of social engineering through fake fixes",
+      "created": "2025-03-21T10:33:16.506000",
+      "tags": [
+        "clickfix",
+        "command line",
+        "captcha",
+        "phishing",
+        "asyncrat",
+        "social engineering",
+        "fake fixes",
+        "powershell"
+      ],
+      "description": "ClickFix is an emerging social engineering tactic that manipulates users into executing malicious actions under the guise of troubleshooting or system maintenance. Attackers present fake error messages, CAPTCHA verifications, or system prompts to convince users to take actions that compromise their devices, often by manually copying and pasting malicious commands into the command line. This method bypasses modern security solutions by tricking users into executing commands themselves. Recent campaigns like OBSCURE#BAT and Storm-1865 have targeted various industries and regions. The attack vector has been observed in Field Effect's telemetry, with attempts to deploy AsyncRAT and other malware. Mitigation strategies include restricting command line use, deploying advanced threat detection solutions, enhancing email and web filtering, training users, and maintaining up-to-date security measures.",
+      "url": "",
+      "author_name": "AlienVault"
+    },
+    {
+      "name": "Unboxing Anubis: Exploring the Stealthy Tactics of FIN7's Latest Backdoor",
+      "created": "2025-03-20T19:04:31.531000",
+      "tags": [
+        "obfuscation",
+        "financial-crime",
+        "apt",
+        "phishing",
+        "anubisbackdoor",
+        "hospitality-sector",
+        "encryption",
+        "python"
+      ],
+      "description": "FIN7, a notorious cybercrime group, has developed a new Python-based backdoor called AnubisBackdoor. This sophisticated tool employs multi-stage attacks, encryption, and obfuscation techniques to evade detection. The malware is distributed through phishing campaigns and uses AES encryption with multiple layers of obfuscation. AnubisBackdoor's core functionality includes network communication, system access, and anti-analysis features. It can execute commands, manipulate files, and gather system information. The backdoor maintains persistence through Windows Registry and uses a custom command protocol for C2 communication. This new tool demonstrates FIN7's continued evolution in developing covert communication channels and highlights their advanced capabilities in cybercrime operations.",
+      "url": "",
+      "author_name": "AlienVault"
+    },
+    {
+      "name": "Virtue or Vice? A First Look at Paragon's Proliferating Spyware Operations",
+      "created": "2025-03-19T21:59:30.975000",
+      "tags": [
+        "human rights",
+        "zero-click exploit",
+        "surveillance",
+        "graphite",
+        "spyware"
+      ],
+      "description": "The report investigates Paragon Solutions, an Israeli spyware company founded in 2019 that sells a product called Graphite. Through infrastructure analysis, the researchers identified potential Paragon deployments in several countries. They also found evidence linking Paragon to the Canadian Ontario Provincial Police. Working with WhatsApp, they discovered and mitigated a Paragon zero-click exploit targeting civil society members. Forensic analysis of Android devices in Italy confirmed Paragon infections. The report also examines a potentially related iPhone spyware case. It highlights Paragon's targeting of individuals involved in migrant rescue operations in the Mediterranean, raising questions about the company's claims of only selling to customers respecting human rights. The findings challenge Paragon's marketing approach and demonstrate the ongoing risks of mercenary spyware abuse, even in democracies.",
+      "url": "",
+      "author_name": "AlienVault"
+    },
+    {
+      "name": "SuperCard X: exposing a Chinese-speaker MaaS for NFC Relay fraud operation",
+      "created": "2025-04-18T16:07:51.983000",
+      "tags": [
+        "ngate",
+        "supercard x",
+        "banking",
+        "android",
+        "relay-attack",
+        "maas"
+      ],
+      "description": "A new Android malware campaign called 'SuperCard X' has been identified, employing NFC-relay techniques to enable fraudulent POS payments and ATM withdrawals. Distributed through a Chinese-speaking Malware-as-a-Service platform, it shares similarities with NGate malware. The campaign uses social engineering tactics to trick victims into installing the malicious app and tapping their payment cards on infected phones. This sophisticated fraud scheme combines SMS phishing, phone calls, malware installation, and NFC data interception. SuperCard X poses a significant financial risk to banking institutions, payment providers, and credit card issuers due to its ability to perform instant fraudulent cash-outs with debit and credit cards.",
+      "url": "",
+      "author_name": "AlienVault"
+    }
+  ]
+}
